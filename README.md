@@ -10,87 +10,133 @@
 RANJITH5714/RANJITH5714 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-<!DOCTYPE html>
-<html>
-<head>
-<title>Page Title</title>
-</head>
-<body>
-
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html>
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>An unordered HTML list</h2>
-
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ul>  
-
-</body>
-</html>
 body {
   background-color: lightblue;
 }
 
 h1 {
-  color: white;
-  text-align: center;
+  color: pink;
+  text-align: left;
 }
 
 p {
   font-family: verdana;
   font-size: 20px;
 }
-<!DOCTYPE html>
-<html>
-<body>
-
-<h2>HTML Buttons</h2>
-<p>HTML buttons are defined with the button tag:</p>
-
-<button>Click me</button>
-
-</body><!DOCTYPE html>
-<html>
-<body>
-
-<h2>HTML Links</h2>
-<p>HTML links are defined with the a tag:</p>
-
-<a href="https://www.w3schools.com">This is a link</a>
-
-</body>
-</html>
-</html><!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-  <form>
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname">
-</form>
-<body>
-
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
-
-</body>
-</html><form oninput="x.value=parseInt(a.value)+parseInt(b.value)">0
-  <input type="range" id="a" value="50">100
-  +<input type="number" id="b" value="50">
-  =<output name="x" for="a b"></output>
-</form>
-
-
-
+<!DOCTYPE html>  
+<html>  
+<head>  
+<style>  
+body {  
+  background-color:  lightblue;  
+}  
+h1 {  
+  colour: white;  
+  text-align: center;  
+}  
+p {  
+  font-family: Verdana;  
+  font-size: 20px;  
+}  
+</style>  
+</head>  
+<body>  
+<h1>My First CSS Example</h1>  
+<p>This is a paragraph.</p>  
+</body>  
+</html>  
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+  <meta charset="UTF-8" />  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />  
+  <style>  
+    body {  
+      background-color: black;  
+    }  
+   h1 {  
+      color: mediumvioletred;  
+    }  
+   h2 {  
+      color: powder blue;  
+    }  
+  </style>  
+</head>  
+<body>  
+  <h1>Welcome!!</h1>  
+  <h2>Good Morning!</h2>  
+</body>  
+</html> 
+<!DOCTYPE html>  
+<html>  
+  <head>  
+    <!-- CSS property using id attribute -->  
+    <style>  
+      * {  
+        background-color: white;  
+      }  
+      #first {  
+        colour: black;  
+        text-align: center;  
+      }  
+      #second {  
+        text-align: center;  
+        color: #ff1493;  
+      }  
+    </style>  
+  </head>  
+  <body>  
+    <!-- id attribute declares here -->  
+    <h1 id="first">First Header</h1>  
+    <h2 id="second">Second Header</h2>  
+  </body>  
+</html
+<!DOCTYPE html>   
+<html>  
+ <head>  
+          <title>HTML</title>  
+          <link rel="stylesheet" type="text/css" href="first.css">  
+ <style>  
+ #center1  
+ {  
+   text-align: center;   
+   color:pink;  
+ }  
+ .center2 {  
+   text-align: center;   
+   color:red;  
+ }  
+ h1 {   
+text-align:center;  
+ color:green;   
+}   
+</style>  
+ </head>  
+ <body>  
+ <h1>This heading will be green and center-aligned </h1>  
+ <p class = "center2">This paragraph will be red and center-aligned </p>  
+ <p id ="center1">This paragraph will be pink and center-aligned</p>  
+ </body>  
+ </html>
+ <!DOCTYPE html>   
+<html>  
+ <head>  
+<title>HTML</title>  
+ <link rel="stylesheet" type="text/css" href="first.css">  
+ <style>   
+#center  
+{   
+color:#ff0099;  
+}   
+h1{   
+color:rgba(255,0,0,0.5);  
+}   
+</style>  
+ </head>  
+ <body>  
+ <h1>This heading will be green</h1>  
+ <p style="color:rgb(255,0,0)">This paragraph will be red</p>   
+<p id="center">This paragraph will be pink and center-aligned</p>  
+ </body>   
+</html>   
