@@ -133,7 +133,8 @@ h1{
 color:rgba(255,0,0,0.5);  
 }   
 </style>  
- </head>  
+ </head>
+  
  <body>  
  <h1>This heading will be green</h1>  
  <p style="color:rgb(255,0,0)">This paragraph will be red</p>   
