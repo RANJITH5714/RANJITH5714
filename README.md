@@ -168,7 +168,91 @@ person.firstName + " " + person.lastName;
 
 </body>
 </html>
-   
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Expressions</h2>
+
+<p>Expressions compute to values.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = "John" + " "  + "Doe";
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Assigning JavaScript Values</h2>
+
+<p>In JavaScript the = operator is used to assign values to variables.</p>
+
+<p id="demo"></p>
+
+<script>
+let x, y;
+x = 5;
+y = 6;
+document.getElementById("demo").innerHTML = x + y;
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>What Can JavaScript Do?</h2>
+
+<p id="demo">JavaScript can hide HTML elements.</p>
+
+<button type="button" onclick="document.getElementById('demo').style.display='none'">Click Me!</button>
+
+</body>
+</html> 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Assigning JavaScript Values</h2>
+
+<p>In JavaScript the = operator is used to assign values to variables.</p>
+
+<p id="demo"></p>
+
+<script>
+let x, y;
+x = 5;
+y = 6;
+document.getElementById("demo").innerHTML = x + y;
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Expressions</h2>
+
+<p>Expressions compute to values.</p>
+
+<p id="demo"></p>
+
+<script>
+var x;
+x = 5;
+document.getElementById("demo").innerHTML = x * 10;
+</script>
+
+</body>
+</html>
+
 
 
 
