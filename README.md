@@ -359,6 +359,115 @@ document.getElementById("demo").innerHTML = d;
 
 </body>
 </html>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>The at() Method</h2>
+
+<p>The at() method returns an indexed element from an array:</p>
+
+<p id="demo"></p>
+
+<script>
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits.at(2);
+
+document.getElementById("demo").innerHTML = fruit;
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<h2>Sort in Reverse</h2>
+
+<p>The reverse() method reverses the elements in an array.</p>
+<p>By combining sort() and reverse() you can sort an array in descending order:</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+// Create and display an array:
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo1").innerHTML = fruits;
+
+// First sort the array
+fruits.sort();
+
+// Then reverse it:
+fruits.reverse();
+
+document.getElementById("demo2").innerHTML = fruits;
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1> 
+<h2>Declaring an Array Using var</h2>
+
+<p id="demo"></p>
+
+<script>
+var cars = ["Saab", "Volvo", "BMW"];
+// Here cars[0] is "Saab"
+{  
+  var cars = ["Toyota", "Volvo", "BMW"]; 
+  // Here cars[0] is "Toyota"
+}
+// Here cars[0] is "Toyota"
+document.getElementById("demo").innerHTML = cars[0];
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Math.ceil()</h2>
+
+<p>Math.ceil() rounds a number <strong>up</strong> to its nearest integer:</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = Math.ceil(4.4);
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript if .. else</h2>
+
+<p>A time-based greeting:</p>
+
+<p id="demo"></p>
+
+<script>
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+document.getElementById("demo").innerHTML = greeting;
+</script>
+
+</body>
+</html>
 
 
 
